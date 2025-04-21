@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+    .list-group-item {
+        @apply p-4 rounded-sm cursor-pointer hover:bg-blue-50 hover:text-blue-400;
+    }
+
+    .flex-wrapper {
+        @apply flex justify-center items-center flex-grow;
+    }
+
+    .content-wrapper {
+        @apply bg-white rounded-md border border-gray-200 p-10;
+    }
+
+    .primary-button {
+        @apply px-6 py-4 bg-blue-500 text-white rounded hover:bg-blue-600;
+    }
+}
